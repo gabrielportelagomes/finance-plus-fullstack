@@ -20,7 +20,7 @@ services:
     env_file:
       - back-end/.env
     environment:
-      - JWT_SECRET: "gabriel"
+      - JWT_SECRET=gabriel
 
   react:
     container_name: react
