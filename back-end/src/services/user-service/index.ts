@@ -1,6 +1,6 @@
-import { exclude } from '@/utils/prisma-utils';
+import { exclude } from '../../utils/prisma-utils';
 import { conflictError, forbiddenError } from '../../errors';
-import { CreateUserParams, UpdateUserParams } from '../../protocols';
+import { CreateUserParams } from '../../protocols';
 import userRepository from '../../repositories/user-repository';
 import bcrypt from 'bcrypt';
 
