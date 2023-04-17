@@ -13,7 +13,7 @@ jobs:
           envkey_POSTGRES_USER: "postgres"
           envkey_POSTGRES_PASSWORD: "postgres"
           envkey_POSTGRES_DB: "finplus"
-          envkey_DATABASE_URL: "postgresql://postgres:postgres@:postgres:5432/finplus"
+          envkey_DATABASE_URL: "postgresql://postgres:postgres@postgres:5432/finplus"
           directory: back-end
           file_name: .env.test
       - name: Run tests
