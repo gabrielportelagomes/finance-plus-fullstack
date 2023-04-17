@@ -13,6 +13,7 @@ jobs:
       - name: Create back-end env file
         uses: SpicyPizza/create-envfile@v1.3.1
         with:
+          envkey_REACT_APP_BRAPI_API_BASE_URL: "https://brapi.dev/"
           envkey_JWT_SECRET: "gabriel"
           envkey_PORT: 5000
           envkey_POSTGRES_USERNAME: "postgres"
