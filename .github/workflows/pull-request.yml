@@ -14,7 +14,7 @@ jobs:
           envkey_POSTGRES_USERNAME: ${{secrets.POSTGRES_USERNAME}}
           envkey_POSTGRES_PASSWORD: ${{secrets.POSTGRES_PASSWORD}}
           envkey_POSTGRES_DB: ${{secrets.POSTGRES_DB_TEST}}
-          envkey_DATABASE_URL: ${{secrets.POSTGRES_URL_TEST}}
+          envkey_DATABASE_URL: ${{secrets.DATABASE_URL_TEST}}
           directory: back-end
           file_name: .env.test
       - name: Run tests
