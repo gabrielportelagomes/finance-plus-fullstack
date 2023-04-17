@@ -13,6 +13,7 @@ jobs:
       - name: Create back-end env file
         uses: SpicyPizza/create-envfile@v1.3.1
         with:
+          envkey_JWT_SECRET: "gabriel"
           envkey_PORT: ${{secrets.PORT}}
           envkey_POSTGRES_USERNAME: ${{secrets.POSTGRES_USERNAME}}
           envkey_POSTGRES_PASSWORD: ${{secrets.POSTGRES_PASSWORD}}
